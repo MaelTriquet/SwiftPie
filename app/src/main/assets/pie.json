@@ -1,0 +1,32 @@
+{
+  "type": "menu",
+  "label": "Root",
+  "children": [
+    {
+      "type": "menu",
+      "label": "Google",
+      "children": [
+        {
+          "type": "leaf",
+          "label": "Gmail",
+          "package": "com.google.android.gm"
+        },
+        {
+          "type": "leaf",
+          "label": "Chrome",
+          "package": "com.android.chrome"
+        }
+      ]
+    },
+    {
+      "type": "leaf",
+      "label": "YouTube",
+      "package": "com.google.android.youtube"
+    },
+	{
+      "type": "leaf",
+      "label": "Config",
+      "package": "config"
+	}
+  ]
+}
